@@ -1,67 +1,150 @@
-.Titulo{
-    margin-left: 345px;
-    width: 350px;
-}
-.Foto{
-    width: 150px;
+.Presentacion{
     height: 250px;
-    margin-top: -40px;
+    width: 820px;
+
+    background: rgb(206,219,233);
+    background: -moz-linear-gradient(-45deg,  rgba(206,219,233,1) 0%, rgba(170,197,222,1) 17%,
+    rgba(97,153,199,1) 50%, rgba(58,132,195,1) 51%, rgba(65,154,214,1) 59%, rgba(75,184,240,1) 71%, 
+    rgba(58,139,194,1) 84%, rgba(38,85,139,1) 100%); 
+    background: -webkit-linear-gradient(-45deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%, 
+    rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,
+    rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+    background: linear-gradient(135deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,
+    rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,
+    rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',
+    GradientType=1 );
+
+    margin-top: 60px;
+    margin-left: 290px;
+
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+
+    border-radius: 0px 30px 30px 0px;
+
+    box-shadow: 0px 0px 10px black;
+}
+
+
+.Señalador{
+    height: 1200px;
+    width: 200px;
+   
+    background: rgb(206,219,233); 
+    background: -moz-linear-gradient(-45deg,  rgba(206,219,233,1) 0%, rgba(170,197,222,1) 17%,
+    rgba(97,153,199,1) 50%, rgba(58,132,195,1) 51%, rgba(65,154,214,1) 59%, rgba(75,184,240,1) 71%,
+    rgba(58,139,194,1) 84%, rgba(38,85,139,1) 100%); 
+    background: -webkit-linear-gradient(-45deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,
+    rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,
+    rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+    background: linear-gradient(135deg,  rgba(206,219,233,1) 0%,rgba(170,197,222,1) 17%,
+    rgba(97,153,199,1) 50%,rgba(58,132,195,1) 51%,rgba(65,154,214,1) 59%,rgba(75,184,240,1) 71%,
+    rgba(58,139,194,1) 84%,rgba(38,85,139,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cedbe9', endColorstr='#26558b',
+    GradientType=1 ); 
+
+
+    margin-top: -300px;  
     margin-left: 50px;
+
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
-}
 
-.Datos{
-    width: 500px;
-    margin-left: 345px;
-    margin-top: -240px;
+    border-radius: 30px 0px 30px 30px;
+
+    box-shadow: 0px 0px 10px black;
+}
+.Foto{
+    width: 150px;
+    height: 150px;
+
+    margin-left: 20px;
+    margin-top: 50px;
+
+    border-radius: 50%;
 }
 
 .Deportes{
-    margin-left: 345px;
-    color:cadetblue;
     width: 400px;
-    margin-top: 100px;
+
+    margin-left: 345px;
+    margin-top: -915px;
+
+    color:rgb(18, 100, 207);
+    font-family: 'Moon Dance', cursive;
+    
+    
 }
 
 .Escritores{
-    margin-left: 345px;
-    color:cadetblue;
     width: 400px;
+
+    margin-left: 345px;
     margin-top: 15px;
+
+    color:rgb(18, 100, 207);
+    font-family: 'Moon Dance', cursive;
+    
+    
 }
 
 .Perfil{
-    margin-left: 345px;
-    color:cadetblue;
     width: 800px;
+
+    margin-left: 345px;
     margin-top: 15px;
+
+    color:cadetblue;
+    
+    
+}
+
+.IconoWhatsapp{
+    font-size: 50px;
+    color:rgb(18, 100, 207);
+
+    margin-left: 980px;
+    margin-top: -50px;
+
+}
+
+.IconoTelegram{
+    font-size: 50px;
+    color:rgb(18, 100, 207);
+
+    margin-left: 1060px;
+    margin-top: -55px;
 }
 
 p{
-    font-family: 'Times New Roman';
+    font-family: 'Indie Flower', cursive;
+    color:rgb(18, 100, 207);
 }
 
 h1{
-    font-family: 'Times New Roman';
+    font-family: 'Lobster', cursive;
     color: black;
 }
 
 h3{
-    font-family: 'Times New Roman';
+    font-family: 'Lobster', cursive;
     color: black;
 }
 
 h4{
-    font-family: 'Times New Roman';
+    font-family: 'Moon Dance', cursive;
     color: black;
 }
 
 h5{
     margin-left: 345px;
-    margin-top: 15px;
-    font-family: 'Courier New';
+    margin-top: 30px;
+    
+    font-family: 'Roboto', sans-serif;
     color: black;
 }
